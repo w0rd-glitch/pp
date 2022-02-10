@@ -46,6 +46,9 @@ body {
                     color: var(--green);
                 }
             }
+            a{
+                text-decoration: none;
+            }
         }
     }
 }
@@ -113,6 +116,7 @@ body {
     position: sticky;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     height: 90vh;
     ul {
         list-style-type: none;
