@@ -143,7 +143,41 @@ body {
 
 /////////////////////////////////////// ABOUT PAGE ////////////////////////////////////
 
-
+.about-page {
+    padding-top: 2em;
+    padding-left: 15em;
+    padding-right: 15em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .about-heading {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        h2 {
+            white-space: nowrap;
+        }
+        hr {
+            width: 75%;
+            height: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+    .about-text-img {
+        display: flex;
+        flex-direction: row;
+        div:nth-child(2) {
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+}
 
 
 @keyframes anime {
