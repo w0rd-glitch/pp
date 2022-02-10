@@ -46,29 +46,21 @@ function App() {
           </li>
         </ul>
       </div>
-
+    <div className='content'>
     <div className='heading'>
-      <h5>
-        Hi, my name is
-      </h5>
-
-      <h2>
-        Panaite Cristian.
-      </h2>
-
-      <h3>
-        I do stuff on the web.
-      </h3>
-
-      <p>
-        I'm a web developer. Simplu si pe 2.
-      </p>
-
+      <h5>Hi, my name is</h5>
+      <h2>Panaite Cristian.</h2>
+      <h3>I do stuff on the web.</h3>
+      <p>I'm a web developer. Simplu si pe 2.</p>
       <a href="youtube.com">
         Check out my tutorials !
       </a>
     </div>
     </div>
+    </div>
+
+    
+
     </div>
   );
 }
