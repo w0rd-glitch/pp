@@ -153,15 +153,17 @@ body {
     justify-content: center;
     align-items: center;
     .about-heading {
-        width: 30%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
         h2 {
             white-space: nowrap;
+            color: var(--slate);
+            font-family: "Spacemono", "monospace";
         }
         hr {
-            width: 75%;
+            width: 60%;
             height: 1px;
             margin-left: 15px;
             margin-right: 15px;
@@ -170,6 +172,34 @@ body {
     .about-text-img {
         display: flex;
         flex-direction: row;
+        div:nth-child(1) {
+            p {
+                padding: 15px 10px 15px 10px;
+                color: var(--dark-slate);
+                cursor:default;
+                line-height: 1.7;
+                font-size: 15px;
+                letter-spacing: 0.050em;
+            }
+            ul {
+                padding: 15px 10px 15px 40px;
+                list-style-type: katakana;
+                letter-spacing: 0.1em;
+                li::marker {
+                    color: var(--green);
+                }
+                li {
+                    color: var(--dark-slate);
+                    transition: 0.2s;
+                    width: fit-content;
+                    cursor: pointer;
+                    &:hover {
+                        color: var(--green);
+                        transform: translateY(-10%);
+                    }
+                }
+            }
+        }
         div:nth-child(2) {
             img {
                 width: 200px;
@@ -190,3 +220,4 @@ body {
         transform: translateY(0);
     }
 }
+
