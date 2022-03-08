@@ -35,9 +35,6 @@ function About() {
             <li>HTML/CSS</li>
           </ul>
         </div>
-        <div>
-          <img src="/cristi.jpeg" alt="cristi" />
-        </div>
       </div>
     </div>
   );

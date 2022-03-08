@@ -144,7 +144,7 @@ body {
 /////////////////////////////////////// ABOUT PAGE ////////////////////////////////////
 
 .about-page {
-    padding-top: 2em;
+    padding-top: 5em;
     padding-left: 15em;
     padding-right: 15em;
     width: 100%;
@@ -160,10 +160,10 @@ body {
         h2 {
             white-space: nowrap;
             color: var(--slate);
-            font-family: "Spacemono", "monospace";
+            font-family: "Space mono", "monospace";
         }
         hr {
-            width: 60%;
+            width: 80%;
             height: 1px;
             margin-left: 15px;
             margin-right: 15px;
@@ -198,12 +198,6 @@ body {
                         transform: translateY(-10%);
                     }
                 }
-            }
-        }
-        div:nth-child(2) {
-            img {
-                width: 200px;
-                height: 200px;
             }
         }
     }
