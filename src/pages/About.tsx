@@ -31,7 +31,7 @@ function About() {
           <ul>
             <li>Typescript</li>
             <li>Javascript (ES6+)</li>
-            <li>Nodejs</li>
+            <li>Node.js</li>
             <li>HTML/CSS</li>
           </ul>
         </div>
