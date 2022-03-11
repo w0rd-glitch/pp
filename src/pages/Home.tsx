@@ -1,4 +1,4 @@
-import { faGithub, faYoutube, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faTwitterSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
@@ -8,16 +8,24 @@ function Home() {
       <div className='sidebar'>
         <ul>
           <li>
+            <a href="https://github.com/w0rd-glitch">
             <span><FontAwesomeIcon icon={faGithub} /></span>
+            </a>
           </li>
           <li>
-            <span><FontAwesomeIcon icon={faYoutube} /></span>
+            <a href='https://www.linkedin.com/in/cristian-florin-panaite-77b3a0233/'>
+            <span><FontAwesomeIcon icon={faLinkedin} /></span>
+            </a>
           </li>
           <li>
-            <span><FontAwesomeIcon icon={faFacebook} /></span>
+            <a href=''>
+            <span><FontAwesomeIcon icon={faTwitterSquare} /></span>
+            </a>
           </li>
           <li>
+            <a href='https://www.instagram.com/th3sh4/'>
             <span><FontAwesomeIcon icon={faInstagram}/></span>
+            </a>
           </li>
         </ul>
       </div>
